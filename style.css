@@ -1,0 +1,37 @@
+body {
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png");
+}
+
+.container {
+    background: white; 
+    margin-top: 20px;
+    border: 1px solid black;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.navbar {
+    margin-bottom: 50px;
+    color: #4aaaa5;
+    
+}
+
+footer {
+    height: 8%;
+    background: grey;
+    border-top: 8px solid #4aaaa5
+}
+
+img {
+    margin: 20px 30px 20px 17px;
+}
+
+.container h1 {
+    margin: 30px 0px 10px;
+    color: #4aaaa5;
+}
+
+
+#exampleInputMessage1 {
+    height: 200px;
+}
