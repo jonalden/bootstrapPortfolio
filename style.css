@@ -2,19 +2,37 @@ body {
     background: url("https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png");
 }
 
+/* containers for all 3 pages */
+
 .container {
-    background: white; 
+    background: white;
     margin-top: 20px;
     border: 1px solid black;
     font-size: 24px;
     line-height: 150%;
 }
 
+/* navbar */
+
 .navbar {
     margin-bottom: 50px;
-    color: #4aaaa5;
-    
+    border-bottom: 1px solid #cccccc;
+    background-color: white !important;
+    height: 7%;
 }
+
+/* Name-Jon Alden */
+
+.navbar .navbar-brand {
+    color: #4aaaa5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.navbar .nav-item {
+    color: #989898 !important;
+}
+
+/* footer */
 
 footer {
     height: 8%;
@@ -22,16 +40,39 @@ footer {
     border-top: 8px solid #4aaaa5
 }
 
+/* images inside portfolio container */
+
 img {
-    margin: 20px 30px 20px 17px;
+    margin: 20px 30px 20px 10px;
 }
+
+/* About Me */
 
 .container h1 {
     margin: 30px 0px 10px;
     color: #4aaaa5;
+    margin-left: 10px;
 }
 
+/* alligning text in about me */
+
+.container p {
+    margin-left: 10px;
+}
+
+/* message box in form  */
 
 #exampleInputMessage1 {
     height: 200px;
+}
+
+/* border around content, form, and portfolio containers */
+
+.container {
+    border: 1px solid #cccccc;
+}
+
+p {
+    color: #989898;
+    margin-top: 7px;
 }

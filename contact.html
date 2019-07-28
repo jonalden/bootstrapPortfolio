@@ -14,22 +14,23 @@
 
     <!-- Nav bar  -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <h1>Jon Alden</h1>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html" tabindex="-1">Contact</a>
-                </li>
-            </ul>
+        <a class="navbar-brand" href="#">
+            <h1>Jon Alden</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
 
+            </div>
         </div>
     </nav>
+
 
     <!-- form -->
     <div class="container">
@@ -43,21 +44,28 @@
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@email.com">
+                        <input type="email" class="form-control" id="exampleInputEmail1"
+                            placeholder="example@email.com">
                     </div>
                     <div class="form-group">
-                            <label for="exampleInputPassword1">message</label>
-                            <input type="message" class="form-control" id="exampleInputMessage1" placeholder="Type message here">
-                        </div>
+                        <label for="exampleInputPassword1">message</label>
+                        <input type="message" class="form-control" id="exampleInputMessage1"
+                            placeholder="Type message here">
+                    </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
-            </div>   
+            </div>
         </div>
-    </div>           <!-- footer -->
-                <footer class="page-footer font-small blue fixed-bottom">
-                    <div class="footer-copyright text-center py-3">
-                    </div>
-                </footer>
+    </div>
+
+
+    <!-- footer -->
+    <footer class="page-footer font-small blue fixed-bottom">
+        <div class="footer-copyright text-center py-3">
+        </div>
+    </footer>
+
+
 </body>
 
 </html>
