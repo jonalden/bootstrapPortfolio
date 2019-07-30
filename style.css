@@ -1,5 +1,6 @@
 body {
     background: url("https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png");
+    padding-bottom: 200px;
 }
 
 /* containers for all 3 pages */
@@ -15,35 +16,43 @@ body {
 /* navbar */
 
 .navbar {
-    margin-bottom: 50px;
-    border-bottom: 1px solid #cccccc;
     background-color: white !important;
-    height: 7%;
+    border-bottom: 1px solid #989898;
 }
 
-/* Name-Jon Alden */
-
-.navbar .navbar-brand {
-    color: #4aaaa5;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-.navbar .nav-item {
+.nav-item {
     color: #989898 !important;
 }
 
 /* footer */
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     height: 8%;
+    margin-top: 30px;
     background: grey;
-    border-top: 8px solid #4aaaa5
+    border-top: 8px solid #4aaaa5;
 }
 
 /* images inside portfolio container */
 
 img {
-    margin: 20px 30px 20px 10px;
+    margin: 20px 20px 20px 20px;
+}
+
+.jumbotron {
+    background: white !important;
+    margin-top: 20px !important;
+    border: 1px solid #cccccc;
+    padding-top: 30px;
+}
+
+.display-4 {
+    color: #4aaaa5;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 /* About Me */
@@ -73,6 +82,20 @@ img {
 }
 
 p {
-    color: #989898;
+    color: black;
+    font-size: 1rem;
     margin-top: 7px;
 }
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+a h1 {
+    padding: 0 15px;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
